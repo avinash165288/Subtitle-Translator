@@ -13,7 +13,8 @@ API Integration
 Project Structure
 Example
 Future Improvements
-Contributing**
+Contributing
+License**
 
 **📖 Introduction**
 
@@ -35,6 +36,7 @@ pysrt or srt (subtitle parsing)
 API Used:
 Google Translate API / LibreTranslate API / DeepL API
 
+
 **⚙️ How It Works**
 Load the subtitle file (.srt)
 Parse subtitle text and timestamps
@@ -42,13 +44,17 @@ Send text to translation API
 Receive translated text
 Replace original text with translated text
 Save new translated subtitle file
-🔧 Installation
+
+
+**🔧 Installation**
 1. Clone the repository
 git clone https://github.com/your-username/subtitle-translator.git
 cd subtitle-translator
 2. Install dependencies
 pip install -r requirements.txt
-🚀 Usage
+
+
+**🚀 Usage**
 Run the script
 python translator.py
 Example input
@@ -56,7 +62,9 @@ Enter file name: sample.srt
 Enter target language: hi
 Output
 translated_sample.srt
-🔌 API Integration
+
+
+**🔌 API Integration**
 
 This project uses translation APIs to perform language conversion.
 
@@ -74,23 +82,30 @@ payload = {
 
 response = requests.post(url, data=payload)
 print(response.json())
-📂 Project Structure
+
+
+**📂 Project Structure**
 subtitle-translator/
 │── translator.py
 │── requirements.txt
 │── sample.srt
 │── translated_sample.srt
 │── README.md
+
 📌 Example
 Input Subtitle
 1
 00:00:01,000 --> 00:00:03,000
 Hello, how are you?
+
 Output Subtitle
 1
 00:00:01,000 --> 00:00:03,000
 नमस्ते, आप कैसे हैं?
-🚧 Future Improvements
+
+
+**🚧 Future Improvements**
+
 🎯 Add GUI using Tkinter or React
 🌐 Support more subtitle formats (.vtt)
 🔊 Add speech-to-text integration
@@ -98,12 +113,14 @@ Output Subtitle
 🧾 Auto language detection
 🤝 Contributing
 
-Contributions are welcome!
+**Contributions are welcome!**
 
 Fork the repo
 Create a new branch
 Commit your changes
 Push and create a Pull Request
-📜 License
+
+
+**📜 License**
 
 This project is licensed under the MIT License.
